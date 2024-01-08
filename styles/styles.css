@@ -213,9 +213,10 @@ img {
   gap: 10px;
   margin-bottom: 10px;
   color: #fff;
+  padding-left: 3px;
 }
 .position-icon {
-  padding-left: 3px;
+  padding-left: 6px;
 }
 .contact-link {
   text-decoration: none;
