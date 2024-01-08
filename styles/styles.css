@@ -60,6 +60,9 @@ img {
 .project-link {
   margin-left: 10px;
 }
+.project-link:hover {
+  color: #fb6d3a;
+}
 
 .project-bracket {
   font-style: normal;
