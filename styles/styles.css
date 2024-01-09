@@ -7,7 +7,8 @@
   width: 1200px;
   margin: 0 auto;
 }
-img {
+img,
+p {
   margin: 0;
   padding: 0;
 }
@@ -39,6 +40,7 @@ img {
 }
 
 .projects-item {
+  padding-bottom: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -47,19 +49,17 @@ img {
   cursor: pointer;
 }
 
-.project,
 .project-link {
-  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
 }
 
-.project-link {
-  margin-left: 10px;
-}
 .project-link:hover {
   color: #fb6d3a;
 }
@@ -90,6 +90,7 @@ img {
 .projects-list {
   padding: 0px;
   margin-left: 15px;
+  list-style: none;
 }
 
 /* work styles */
@@ -130,6 +131,20 @@ img {
   color: #595959;
   padding: 0px;
   padding-left: 10px;
+  list-style-type: disc;
+}
+.work-list-none {
+  list-style: none;
+}
+.projects-link {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+.bolt {
+  font-weight: bold;
 }
 
 /* Sidebar styles */
@@ -199,7 +214,7 @@ img {
   font-size: 14px;
   line-height: 24px;
 }
-/* Сайд бар */
+
 .location-list {
   display: inline-block;
   justify-content: start;
